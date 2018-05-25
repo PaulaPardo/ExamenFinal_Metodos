@@ -4,7 +4,13 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
+lista = []
+
+for i in x:
+    if(i%2 != 0):
+        if(i<802):
+            lista.append(i)      
+print(lista)
 
 
 
